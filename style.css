@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+figure {
+    width: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    transition: transform .2s ease;
+}
+
+img:active {
+    transform: scale(0.8, 0.8);
+}
+
+.main-section {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 960px;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    font-size: larger;
+}
