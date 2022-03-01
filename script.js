@@ -30,3 +30,15 @@ let button = document.getElementById("button");
 
 button.addEventListener("click", myCounter);
 
+function mouseOver() {
+  buttonText.style.visibility = "visible";
+}
+
+function mouseOut() {
+  buttonText.style.visibility = "hidden";
+}
+
+let buttonText = document.getElementById("button-text");
+buttonText.style.visibility = "hidden";
+button.addEventListener("mouseover", mouseOver);
+button.addEventListener("mouseout", mouseOut);
